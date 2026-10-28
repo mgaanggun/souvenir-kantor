@@ -1,0 +1,35 @@
+# Robots.txt for https://souvenirkantor.com
+# Mengizinkan search engine dan AI bot (Google, Bing, Perplexity, GPTBot, ClaudeBot) mengindeks situs souvenir kantor
+
+User-agent: *
+Allow: /
+Disallow: /forms/
+
+# Web Search Crawlers
+User-agent: Googlebot
+Allow: /
+
+User-agent: Googlebot-Image
+Allow: /assets/img/
+
+User-agent: Bingbot
+Allow: /
+
+# AI Overview & Generative Engine Crawlers (AEO / GEO)
+User-agent: GPTBot
+Allow: /
+
+User-agent: ChatGPT-User
+Allow: /
+
+User-agent: PerplexityBot
+Allow: /
+
+User-agent: ClaudeBot
+Allow: /
+
+User-agent: Applebot
+Allow: /
+
+# Sitemap Index
+Sitemap: https://souvenirkantor.com/sitemap.xml
